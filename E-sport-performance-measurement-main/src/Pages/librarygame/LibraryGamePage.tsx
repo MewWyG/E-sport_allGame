@@ -88,6 +88,76 @@ const games = [
     path: '/gameinfo/auditory-localization',
     isAvailable: true,
   },
+  {
+    id: 'flashmind',
+    title: 'FlashMind',
+    description:
+      'จดจำสีที่ปรากฏเร็วที่สุดในชุดสี ทดสอบความจำชั่วขณะและการสังเกตความเร็วของภาพ',
+    icon: '⚡',
+    iconClassName: 'bg-sp-pink-soft text-sp-pink',
+    path: '/gameinfo/flashmind',
+    isAvailable: true,
+  },
+  {
+    id: 'quickdecision',
+    title: 'Quick Decision',
+    description:
+      'ระบุศัตรูและพวกพ้องในเสี้ยววินาที ยิงศัตรูให้ทันก่อนหนีรอด ปกป้องพวกพ้องไม่ให้โดนยิงผิด',
+    icon: '🎯',
+    iconClassName: 'bg-sp-danger-soft text-sp-danger',
+    path: '/gameinfo/quickdecision',
+    isAvailable: true,
+  },
+  {
+    id: 'reversemind',
+    title: 'ReverseMind',
+    description:
+      'เห็นลูกศรไปทางไหน ให้กดทิศตรงข้าม! ทดสอบการยับยั้งความคิดอัตโนมัติและการตอบสนอง',
+    icon: '🔄',
+    iconClassName: 'bg-sp-info-soft text-sp-info',
+    path: '/gameinfo/reversemind',
+    isAvailable: true,
+  },
+  {
+    id: 'strooptest',
+    title: 'Stroop Test',
+    description:
+      'เลือกสีของตัวอักษร ไม่ใช่อ่านคำ ทดสอบสมาธิและการควบคุมความสนใจภายในเวลาจำกัด',
+    icon: '🎨',
+    iconClassName: 'bg-sp-warning-soft text-sp-warning',
+    path: '/gameinfo/strooptest',
+    isAvailable: true,
+  },
+  {
+    id: 'sequencememory',
+    title: 'Sequence Memory',
+    description:
+      'จดจำลำดับปุ่มที่ติดสว่าง แล้วกดให้ตรงตามลำดับ ทุก Level ลำดับจะยาวขึ้น',
+    icon: '🧩',
+    iconClassName: 'bg-sp-primary/15 text-sp-primary-hover',
+    path: '/gameinfo/sequencememory',
+    isAvailable: true,
+  },
+  {
+    id: 'tracememory',
+    title: 'Trace Memory',
+    description:
+      'จดจำเส้นทางที่แสดง แล้วลากเมาส์ตามเส้นทางเดิมให้แม่นที่สุด วัดความจำเชิงพื้นที่',
+    icon: '✏️',
+    iconClassName: 'bg-sp-info-soft text-sp-info',
+    path: '/gameinfo/tracememory',
+    isAvailable: true,
+  },
+  {
+    id: 'colorreflex',
+    title: 'Color Reflex',
+    description:
+      'เขียวคลิก แดงกด Space ทดสอบรีเฟล็กซ์และการแยกแยะสีในแบบที่กดดันที่สุด',
+    icon: '💚',
+    iconClassName: 'bg-sp-success-soft text-sp-success',
+    path: '/gameinfo/colorreflex',
+    isAvailable: true,
+  },
 ]
 
 export function LibraryGamePage() {

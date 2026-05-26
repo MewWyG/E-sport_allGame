@@ -27,6 +27,27 @@ import SprayControlGamePage from './Pages/gamepages/spray_control/SprayControlGa
 import { AuditoryLocalizationInfoPage } from './Pages/gameinfo/auditory_localization_info/AuditoryLocalization_info'
 import AuditoryLocalizationGamePage from './Pages/gamepages/auditory_localization/AuditoryLocalizationGame'
 
+import { FlashMindInfoPage } from './Pages/gameinfo/flashmind_info/flashMind_info'
+import FlashMindGamePage from './Pages/gamepages/flashmind/flashMind'
+
+import { QuickDecisionInfoPage } from './Pages/gameinfo/quickdecision_info/quickDecision_info'
+import QuickDecisionGamePage from './Pages/gamepages/quickdecision/quickDecision'
+
+import { ReverseMindInfoPage } from './Pages/gameinfo/reversemind_info/reverseMind_info'
+import ReverseMindGamePage from './Pages/gamepages/reversemind/reverseMind'
+
+import { StroopTestInfoPage } from './Pages/gameinfo/strooptest_info/stroopTest_info'
+import StroopTestGamePage from './Pages/gamepages/strooptest/stroopTest'
+
+import { SequenceMemoryInfoPage } from './Pages/gameinfo/sequencememory_info/sequenceMemory_info'
+import SequenceMemoryGamePage from './Pages/gamepages/sequencememory/sequenceMemory'
+
+import { TraceMemoryInfoPage } from './Pages/gameinfo/tracememory_info/traceMemory_info'
+import TraceMemoryGamePage from './Pages/gamepages/tracememory/traceMemory'
+
+import { ColorReflexInfoPage } from './Pages/gameinfo/colorreflex_info/colorReflex_info'
+import ColorReflexGamePage from './Pages/gamepages/colorreflex/colorReflex'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -60,6 +81,27 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
         <Route path="/gameinfo/auditory-localization" element={<AuditoryLocalizationInfoPage />} />
         <Route path="/gameplay/auditory-localization" element={<AuditoryLocalizationGamePage />} />
+
+        <Route path="/gameinfo/flashmind" element={<FlashMindInfoPage />} />
+        <Route path="/gameplay/flashmind" element={<FlashMindGamePage />} />
+
+        <Route path="/gameinfo/quickdecision" element={<QuickDecisionInfoPage />} />
+        <Route path="/gameplay/quickdecision" element={<QuickDecisionGamePage />} />
+
+        <Route path="/gameinfo/reversemind" element={<ReverseMindInfoPage />} />
+        <Route path="/gameplay/reversemind" element={<ReverseMindGamePage />} />
+
+        <Route path="/gameinfo/strooptest" element={<StroopTestInfoPage />} />
+        <Route path="/gameplay/strooptest" element={<StroopTestGamePage />} />
+
+        <Route path="/gameinfo/sequencememory" element={<SequenceMemoryInfoPage />} />
+        <Route path="/gameplay/sequencememory" element={<SequenceMemoryGamePage />} />
+
+        <Route path="/gameinfo/tracememory" element={<TraceMemoryInfoPage />} />
+        <Route path="/gameplay/tracememory" element={<TraceMemoryGamePage />} />
+
+        <Route path="/gameinfo/colorreflex" element={<ColorReflexInfoPage />} />
+        <Route path="/gameplay/colorreflex" element={<ColorReflexGamePage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
